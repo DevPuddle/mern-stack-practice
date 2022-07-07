@@ -41,6 +41,7 @@ const updateGoals = asyncHandler (async (req, res) => {
         body, {
         new: true,
     })
+    
     res.status(200).json(updatedGoal)
 })
 
